@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Amazon Q Helper
 // @namespace    http://tampermonkey.net/
-// @version      4.0
+// @version      4.1
 // @description  优化版本 - 深绿色主题悬停展开助手
 // @author       You
 // @match        https://paragon-na.amazon.com/hz/*
@@ -385,8 +385,8 @@ Wasprice*（100%-0.01%），大促会采用wasprice*95%
             currentWidget.style.cssText = `
                 position: fixed !important;
                 top: 10px !important;
-                left: 50% !important;
-                transform: translateX(-50%) !important;
+                left: 10px !important;
+                transform: none !important;
                 z-index: 2147483647 !important;
                 font-family: Arial, sans-serif !important;
                 transition: all 0.3s ease !important;
@@ -435,7 +435,6 @@ Wasprice*（100%-0.01%），大促会采用wasprice*95%
         miniBar.style.display = 'none';
         expandedContent.style.display = 'block';
         currentWidget.style.width = '380px';
-        currentWidget.style.transform = 'translateX(-50%)';
     }
 
     function collapseWidget() {
@@ -446,7 +445,6 @@ Wasprice*（100%-0.01%），大促会采用wasprice*95%
         miniBar.style.display = 'flex';
         expandedContent.style.display = 'none';
         currentWidget.style.width = 'auto';
-        currentWidget.style.transform = 'translateX(-50%)';
     }
 
     function renderMainMenu() {

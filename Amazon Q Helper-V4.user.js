@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Amazon Q Helper
 // @namespace    http://tampermonkey.net/
-// @version      4.1
+// @version      4.2
 // @description  优化版本 - 深绿色主题悬停展开助手
 // @author       You
 // @match        https://paragon-na.amazon.com/hz/*
@@ -385,7 +385,7 @@ Wasprice*（100%-0.01%），大促会采用wasprice*95%
             currentWidget.style.cssText = `
                 position: fixed !important;
                 top: 10px !important;
-                left: 10px !important;
+                left: 100px !important;
                 transform: none !important;
                 z-index: 2147483647 !important;
                 font-family: Arial, sans-serif !important;

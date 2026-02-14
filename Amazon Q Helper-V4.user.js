@@ -7,8 +7,8 @@
 // @match        https://paragon-na.amazon.com/hz/*
 // @match        https://paragon-eu.amazon.com/hz/*
 // @match        https://paragon-fe.amazon.com/hz/*
-// @updateURL    https://raw.githubusercontent.com/你的用户名/你的仓库名/main/Amazon%20Q%20Helper-V4.user.js
-// @downloadURL  https://raw.githubusercontent.com/你的用户名/你的仓库名/main/Amazon%20Q%20Helper-V4.user.js
+// @updateURL    https://raw.githubusercontent.com/Lira1996/amazon-q-helper/main/Amazon%20Q%20Helper-V4.user.js
+// @downloadURL  https://raw.githubusercontent.com/Lira1996/amazon-q-helper/main/Amazon%20Q%20Helper-V4.user.js
 // @grant        none
 // ==/UserScript==
 
